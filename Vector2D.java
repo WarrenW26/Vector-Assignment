@@ -81,7 +81,7 @@ public class Vector2D {
      */
     public Vector2D scale(double xFactor, double yFactor) {
 
-        return new Vector2D( xFactor, yFactor );
+        return new Vector2D( xFactor * this.getX(), yFactor * this.getY());
     } // scale( double )
 
     /**
